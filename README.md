@@ -1,5 +1,7 @@
 # BugHunter
 
+Currently, we have organized and open-sourced a portion of the code and data. The complete code and data will be updated shortly.
+
 ## Dataset
 
 You can download the dataset in [google drive](https://drive.google.com/file/d/1VGas92RAqguSP_WYRfQllvMHUT7njZyv/view?usp=sharing)
