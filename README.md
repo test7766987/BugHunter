@@ -40,7 +40,7 @@ BugHunter is implemented as a fully automated GUI testing tool, utilizing GPT-4 
 
 ### Datasets
 
-- RQ1 & RQ2: 71 apps and 121 bugs from Themis benchmark and F-Droid.
+- RQ1 & RQ2: 71 apps and 121 bugs from [Themis benchmark](https://github.com/the-themis-benchmarks/home) and [F-Droid](https://f-droid.org/).
 - RQ3: 237 popular apps randomly selected from Google Play.
 
 ### Baseline Methods
