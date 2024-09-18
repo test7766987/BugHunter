@@ -4,6 +4,10 @@
 
 BugHunter is a novel bug-aware automated GUI testing approach that leverages Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to generate exploration paths guided by bug reports from similar apps. This method aims to increase bug detection efficiency by dynamically adapting the testing process to target bug paths, rather than focusing solely on coverage.
 
+Here is the overview structure of BugHunter:
+
+![](./assets/overview.png)
+
 ## Key Features
 - Bug Knowledge Base: Constructs a high-quality bug knowledge base from historical bug reports.
 - Two-Stage Retrieval: Retrieves relevant bug reports using a two-stage retrieval process.
