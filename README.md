@@ -1,28 +1,65 @@
-# BugHunter
+# BugHunter: Bug-Aware Automated GUI Testing via Retrieval Augmentation
 
-Currently, we have organized and open-sourced a portion of the code and data. The complete code and data will be updated shortly.
+## Overview
 
-## Dataset
+BugHunter is a novel bug-aware automated GUI testing approach that leverages Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to generate exploration paths guided by bug reports from similar apps. This method aims to increase bug detection efficiency by dynamically adapting the testing process to target bug paths, rather than focusing solely on coverage.
 
-You can download the dataset in [google drive](https://drive.google.com/file/d/1VGas92RAqguSP_WYRfQllvMHUT7njZyv/view?usp=sharing)
+## Key Features
+- Bug Knowledge Base: Constructs a high-quality bug knowledge base from historical bug reports.
+- Two-Stage Retrieval: Retrieves relevant bug reports using a two-stage retrieval process.
+- Path Generation: Generates test paths based on bug reports from similar apps.
+- Local and Global Path Planning: Handles differences in functionality and UI design across apps.
+- Efficient Bug Detection: Increases bug detection efficiency by targeting bug paths.
 
-After downloaded, you can unzip the file, and you will get 3 directories: 
+## Modules
 
-```
-|─app
-├─readme
-└─selected_data
-```
+1. Knowledge Base Construction
+Extracts information from open-source apps and their bug reports.
+Maps bug reports to the Activity Transition Graph (ATG) to form a structured knowledge base.
+2. Similar Bug Retrieval
+Uses a two-stage retrieval process to identify relevant bug reports.
+Builds a test cognition graph to map similar app bug reports to the target app's ATG.
+3. Bug-Augmented Path Generation
+Annotates GUI screenshots to help LLMs interpret GUI elements accurately.
+Uses local and global path planning to adapt bug-triggering steps to the target app's specific GUI layout.
 
-copy these dir paths into `src/config.ini`:
+## Implementation
 
-```
-readme_path = [readme path]
-selected_app_path = [app path]
-selected_data_path = [selected_data path]
-```
+BugHunter is implemented as a fully automated GUI testing tool, utilizing GPT-4 Vision for text and visual information processing, UIAutomator for GUI view hierarchy extraction, and BCEmbedding for similarity search and matching. The system is built on VirtualBox, Python pyvbox, and Android Debug Bridge (ADB).
 
-## Prepare Env
+## Experiments
+
+### Research Questions
+- RQ1: Evaluates BugHunter's effectiveness in detecting bugs and achieving test coverage compared to common and state-of-the-art baseline methods.
+- RQ2: Ablation studies to evaluate the contribution of each sub-module to coverage and bug detection performance.
+- RQ3: Assesses BugHunter's practicality by automatically exploring apps on Google Play and detecting unseen bugs.
+
+### Datasets
+
+- RQ1 & RQ2: 71 apps and 121 bugs from Themis benchmark and F-Droid.
+- RQ3: 237 popular apps randomly selected from Google Play.
+
+### Baseline Methods
+
+Includes 16 common and state-of-the-art automated GUI testing techniques categorized into random/rule-based, model-based, and learning-based methods.
+
+### Results
+
+#### Bug Detection Performance (RQ1)
+
+BugHunter detected 121 bugs in 71 apps with a recall rate of 64%, 20% higher than the best baseline method (GPTDroid).
+Achieved 53% activity coverage and 52% code coverage, comparable to the best baseline.
+
+#### Ablation Study (RQ2)
+
+Removing the similar bug retrieval module and augmented path generation module reduced the bug detection recall rate by 50% and 51%, respectively.
+
+#### Practicality (RQ3)
+
+BugHunter detected 49 new crash bugs in 273 apps on Google Play, with 33 fixed, 9 confirmed by developers, and 7 pending feedback.
+ 
+
+## Quick Start
 
 Create your python env:
 
@@ -37,8 +74,13 @@ Install the requirements packages:
 pip install requirements.txt
 ```
 
-## Run
+To run the BugHunter, you should then:
 
 1. Change your path in `src/config.ini`
 2. Run `python main.py`
 
+
+
+## Acknowledgments
+
+For more details, please refer to the full paper.
