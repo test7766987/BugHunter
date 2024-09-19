@@ -15,7 +15,30 @@ These data results indicate that BugHunter is highly effective in detecting unse
 
 ## Confirmed Bugs
 
+| ID | App name | Category | download | Version | Time-Machine | ComboDroid | APE+QT | Humanoid | GPTDroid |
+|----|----------|----------|----------|---------|--------------|------------|---------|----------|----------|
+| 1  | BOM Weather | weather | 1M+ | 6.9.1 |  |  |  |  |  |
+| 2  | Weawow | weather | 5M+ | 6.2.8 |  |  |  |  |  |
+| 3  | To-Do List | productivity | 10M+ | 10.3 |  |  |  |  |  |
+| 4  | Roubit | productivity | 1M+ | 6.1.3 |  |  |  | √ |  |
+| 5  | Bitget | finance | 5M+ | 2.41.3 |  |  |  |  |  |
+| 6  | Tonkeeper | finance | 10M+ | 4.10.0 |  |  |  |  |  |
+| 7  | Mi Fitness | health | 10M+ | 3.30.0 |  |  |  |  |  |
+| 8  | Fitdays | health | 1M+ | 1.22.2 |  | √ |  |  |  |
+| 9  | Tasty | food | 10M+ | 1.97.0 |  |  |  |  |  |
+
+
 ## Pending Bugs
+
+| ID | App name       | Category | download | Version  | Time-Machine | ComboDroid | APE+QT | Humanoid | GPTDroid |
+|----|---------------|----------|----------|----------|--------------|------------|---------|----------|----------|
+| 1  | DoorDash      | food     | 50M+     | 15.18    |               |            |         |          |          |
+| 2  | Daily Meal Planner | food     | 100K+    | 2.5.0    |               |            |         |          |          |
+| 3  | Mindbody      | health   | 5M+      | 7.73.0   |               |            |         |          |          |
+| 4  | FX File Explorer | business | 10M+     | 12.3     |               |            |         |          |          |
+| 5  | App Sharer    | tool     | 10K+     | 1.0.4    |               |            |         |          |          |
+| 6  | Send Anywhere  | productivity | 10M+     | 23.2.6   |               |            |         |          |          |
+| 7  | Sportplan     | sport    | 50K+     | 3.0.38   |               |            |         |          |          |
 
 ## Fixed Bugs
 
