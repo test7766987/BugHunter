@@ -2,9 +2,9 @@
 
 ## Data Details
 
-### `app`
+### `Bugtobetest`
 
-The global info of all apps, and the apk files of the apps.
+The apk files of the apps, and the bug steps screenshots.
 
 ### `readme`
 

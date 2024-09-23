@@ -12,20 +12,4 @@ You can download the dataset in [Themis Benchmark GitHub Repository](https://git
 
 ### 2. Additional Collected Dataset
 
-You can download the dataset in [google drive](https://drive.google.com/file/d/1jacAKaekZFQl2k1oedUx-E9OX8U0xqZD/view?usp=sharing)
-
-After downloaded, you can unzip the file, and you will get 3 directories: 
-
-```
-|─app
-├─readme
-└─selected_data
-```
-
-copy these dir paths into `src/config.ini`:
-
-```
-readme_path = [readme path]
-selected_app_path = [app path]
-selected_data_path = [selected_data path]
-```
+You can download the dataset in [google drive](https://drive.google.com/drive/folders/1vjCY1Tr6Tp_QctP_KpbeCb7-erTJn_-N?usp=sharing)

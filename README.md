@@ -83,8 +83,6 @@ To run the BugHunter, you should then:
 1. Change your path in `src/config.ini`
 2. Run `python main.py`
 
-
-
 ## Acknowledgments
 
 For more details, please refer to the full paper.
