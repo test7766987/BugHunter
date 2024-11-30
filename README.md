@@ -9,6 +9,7 @@ Here is the overview structure of BugHunter:
 ![](./assets/overview.png)
 
 Here is our youtube video:
+
 [![观看我的视频](https://img.youtube.com/vi/C0EgbLVi9uw/0.jpg)](https://www.youtube.com/watch?v=C0EgbLVi9uw)
 
 
