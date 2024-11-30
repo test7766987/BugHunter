@@ -8,6 +8,14 @@ Here is the overview structure of BugHunter:
 
 ![](./assets/overview.png)
 
+Here is our youtube video:
+[![观看我的视频](https://img.youtube.com/vi/C0EgbLVi9uw/0.jpg)](https://www.youtube.com/watch?v=C0EgbLVi9uw)
+
+
+Here is the demo gif:
+
+![](./assets/bughunter.gif)
+
 ## Key Features
 - Bug Knowledge Base: Constructs a high-quality bug knowledge base from historical bug reports.
 - Two-Stage Retrieval: Retrieves relevant bug reports using a two-stage retrieval process.
