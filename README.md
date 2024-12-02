@@ -146,7 +146,7 @@ BugHunter detected 49 new crash bugs in 273 apps on Google Play, with 33 fixed, 
 | 28          | Zenmoney          | finance           | 1M+               | 7.9.0            |                |               |                 |                   |                   |
 | 29          | MyTranslink       | map               | 500K+             | 3.7.12345        |                |               |                 |                   |                   |
 | 30          | New Scientist     | news              | 500K+             | 4.9              |                |               |                 |                   |                   |
-| 31          | Turbo Alarm       | tool              | 500K+             | 17.3             |                |               |                 |                   | ✅✅        |
+| 31          | Turbo Alarm       | tool              | 500K+             | 17.3             |                |               |                 |                   | ✅        |
 | 32          | CodeSnack         | education         | 100K+             | 5.5.1            |                |               |                 |                   |                   |
 | 33          | FilterBox         | tool              | 100K+             | 3.3.3            |                |               |                 |                   |                   |
 
