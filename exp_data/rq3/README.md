@@ -26,11 +26,11 @@ These data results indicate that BugHunter is highly effective in detecting unse
 | 1  | BOM Weather | weather | 1M+ | 6.9.1 |  |  |  |  |  |
 | 2  | Weawow | weather | 5M+ | 6.2.8 |  |  |  |  |  |
 | 3  | To-Do List | productivity | 10M+ | 10.3 |  |  |  |  |  |
-| 4  | Roubit | productivity | 1M+ | 6.1.3 |  |  |  | √ |  |
+| 4  | Roubit | productivity | 1M+ | 6.1.3 |  |  |  | ✅ |  |
 | 5  | Bitget | finance | 5M+ | 2.41.3 |  |  |  |  |  |
 | 6  | Tonkeeper | finance | 10M+ | 4.10.0 |  |  |  |  |  |
 | 7  | Mi Fitness | health | 10M+ | 3.30.0 |  |  |  |  |  |
-| 8  | Fitdays | health | 1M+ | 1.22.2 |  | √ |  |  |  |
+| 8  | Fitdays | health | 1M+ | 1.22.2 |  | ✅ |  |  |  |
 | 9  | Tasty | food | 10M+ | 1.97.0 |  |  |  |  |  |
 
 
@@ -51,35 +51,35 @@ These data results indicate that BugHunter is highly effective in detecting unse
 | ID | App name | Category | Download | Version | TimeM | Comb | APE+QT | Humanoid | GPTDroid |
 |-------------|-------------------|-------------------|-------------------|------------------|----------------|---------------|-----------------|-------------------|-------------------|
 | 1           | Musixmatch        | music             | 50M+              | 7.10.1           |                |               |                 |                   |                   |
-| 2           | Time Planner      | productivity      | 5M+               | 3.22             | √     | √    | √      |                   | √        |
+| 2           | Time Planner      | productivity      | 5M+               | 3.22             | ✅     | ✅    | ✅      |                   | ✅        |
 | 3           | DailyLife         | lifestyle         | 5M+               | 4.3.0.2          |                |               |                 |                   |                   |
 | 4           | Carousell         | shopping          | 10M+              | 2.370.4          |                |               |                 |                   |                   |
 | 5           | Hungerstation     | food              | 10M+              | 8.0.19           |                |               |                 |                   |                   |
 | 6           | Karrot            | social            | 10M+              | 24.33.0          |                |               |                 |                   |                   |
 | 7           | Khan Academy      | education         | 10M+              | 8.1.0            |                |               |                 |                   |                   |
-| 8           | Klook             | travel            | 10M+              | 7.3.1            | √     |               | √      | √        | √        |
+| 8           | Klook             | travel            | 10M+              | 7.3.1            | ✅     |               | ✅      | ✅        | ✅        |
 | 9           | Money Manager     | finance           | 10M+              | 4.9.18           |                |               |                 |                   |                   |
 | 10          | Musicolet         | music             | 10M+              | 11.3             |                |               |                 |                   |                   |
 | 11          | Notion            | productivity      | 10M+              | 0.6.2419         |                |               |                 |                   |                   |
-| 12          | Ringtones         | entertain         | 10M+              | 3.7.1            |                | √    |                 |                   | √        |
-| 13          | School Planner    | education         | 10M+              | 8.2.1            | √     |               | √      | √        | √        |
+| 12          | Ringtones         | entertain         | 10M+              | 3.7.1            |                | ✅    |                 |                   | ✅        |
+| 13          | School Planner    | education         | 10M+              | 8.2.1            | ✅     |               | ✅      | ✅        | ✅        |
 | 14          | ShortMax          | entertain         | 10M+              | 1.9.1            |                |               |                 |                   |                   |
 | 15          | Step Tracker      | health            | 10M+              | 1.4.7            |                |               |                 |                   |                   |
-| 16          | To-Do List        | productivity      | 10M+              | 3.7.1            |                | √    |                 |                   |                   |
+| 16          | To-Do List        | productivity      | 10M+              | 3.7.1            |                | ✅    |                 |                   |                   |
 | 17          | Transit           | map               | 10M+              | 5.15.1           |                |               |                 |                   |                   |
 | 18          | Zepp              | sport             | 10M+              | 8.12.3           |                |               |                 |                   |                   |
 | 19          | BetterMe          | health            | 1M+               | 4.54.0           |                |               |                 |                   |                   |
-| 20          | Cathay            | finance           | 1M+               | 5.14.1           |                |               | √      | √        |                   |
-| 21          | Coupang           | shopping          | 1M+               | 8.3.1            |                | √    |                 |                   | √        |
+| 20          | Cathay            | finance           | 1M+               | 5.14.1           |                |               | ✅      | ✅        |                   |
+| 21          | Coupang           | shopping          | 1M+               | 8.3.1            |                | ✅    |                 |                   | ✅        |
 | 22          | Drink Water       | health            | 1M+               | 1.102.19         |                |               |                 |                   |                   |
 | 23          | eSound            | music             | 1M+               | 4.11.1           |                |               |                 |                   |                   |
 | 24          | Fortune City      | finance           | 1M+               | 4.6.1            |                |               |                 |                   |                   |
-| 25          | Home Assistant    | house             | 1M+               | 4.3.0            |                |               | √      |                   | √        |
+| 25          | Home Assistant    | house             | 1M+               | 4.3.0            |                |               | ✅      |                   | ✅        |
 | 26          | MTR Mobile        | travel            | 1M+               | 20.39.1          |                |               |                 |                   |                   |
 | 27          | Rabit             | productivity      | 1M+               | 4.1.362          |                |               |                 |                   |                   |
 | 28          | Zenmoney          | finance           | 1M+               | 7.9.0            |                |               |                 |                   |                   |
 | 29          | MyTranslink       | map               | 500K+             | 3.7.12345        |                |               |                 |                   |                   |
 | 30          | New Scientist     | news              | 500K+             | 4.9              |                |               |                 |                   |                   |
-| 31          | Turbo Alarm       | tool              | 500K+             | 17.3             |                |               |                 |                   | √        |
+| 31          | Turbo Alarm       | tool              | 500K+             | 17.3             |                |               |                 |                   | ✅        |
 | 32          | CodeSnack         | education         | 100K+             | 5.5.1            |                |               |                 |                   |                   |
 | 33          | FilterBox         | tool              | 100K+             | 3.3.3            |                |               |                 |                   |                   |
