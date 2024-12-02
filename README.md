@@ -12,7 +12,6 @@ Here is our youtube video:
 
 [![观看我的视频](https://img.youtube.com/vi/C0EgbLVi9uw/0.jpg)](https://www.youtube.com/watch?v=C0EgbLVi9uw)
 
-
 Here is the demo gif:
 
 ![](./assets/bughunter.gif)
@@ -49,8 +48,18 @@ BugHunter is implemented as a fully automated GUI testing tool, utilizing GPT-4 
 
 ### Datasets
 
-- RQ1 & RQ2: 71 apps and 121 bugs from [Themis benchmark](https://github.com/the-themis-benchmarks/home) and [F-Droid](https://f-droid.org/).
-- RQ3: 237 popular apps randomly selected from Google Play.
+- RQ1 & RQ2: 71 apps and 121 bugs from [Themis benchmark](https://github.com/the-themis-benchmarks/home) and [F-Droid](https://f-droid.org/). Here are the relevant statistics for this part of the data:
+
+    | App categories | max activities | min activities | Median activities |
+    |-----------------|----------------|----------------|--------------------|
+    | 12             | 39             | 2              | 16                |
+
+- RQ3: 237 popular apps randomly selected from Google Play. Here are the relevant statistics for this part of the data:
+
+    | App categories | max activities | min activities | Median activities |
+    |-----------------|----------------|----------------|--------------------|
+    | 20             | 77             | 8              | 31                |
+
 
 ### Baseline Methods
 
