@@ -4,7 +4,7 @@
 
 The dataset for this study consists of 71 applications with a total of 121 crash bugs. The applications are sourced from two main datasets: 20 applications with 34 bugs from the Themis benchmark, and an additional 51 applications with 87 bugs collected from F-Droid.
 
-You can download the additional added dataset in [google drive](https://drive.google.com/drive/folders/1vjCY1Tr6Tp_QctP_KpbeCb7-erTJn_-N?usp=sharing)
+You can download the additional added dataset in [google drive](https://drive.google.com/drive/folders/1vjCY1Tr6Tp_QctP_KpbeCb7-erTJn_-N?usp=sharing).
 
 ## Data Details
 
