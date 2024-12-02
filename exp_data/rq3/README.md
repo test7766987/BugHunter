@@ -4,6 +4,12 @@
 
 In the experiment for RQ3, we evaluated the bug detection capabilities of BugHunter on 237 popular apps randomly selected from Google Play, based on app type and download numbers. The experiment compared BugHunter with several baseline methods (Time-Machine, ComboDroid, APE+QT, Humanoid, GPTDroid), with all methods testing each app for 60 minutes.
 
+Here are the relevant statistics for this part of the data:
+
+| App categories | max activities | min activities | Median activities |
+|-----------------|----------------|----------------|--------------------|
+| 20             | 77             | 8              | 31                |
+
 The results of the experiment are as follows:
 1. BugHunter detected 93 crash bugs in 88 apps.
 2. Among these, 49 bugs in 45 apps were discovered for the first time and had not been detected by any baseline method previously.
